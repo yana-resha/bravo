@@ -1,0 +1,139 @@
+.tasksApproval {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.collapseHeader {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.collapseBadge {
+    margin-left: 5px;
+}
+
+.tasksTable {
+    width: 100%;
+    font-size: 14px;
+}
+
+.tableHeader {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        background-color: #eaeaf1;
+        border-radius: 10px;
+        box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+    }
+}
+
+.tableHeaderItem {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: 35px;
+    text-align: center;
+    z-index: 1;
+    min-height: 35px;
+}
+
+.tableHeaderTitleItem {
+    text-align: left;
+}
+
+.tableItem {
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.itemTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemEvent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemValue {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+}
+
+.itemEventControls {
+    display: flex;
+    align-items: center;
+}
+
+.itemEventControls > *:not(:last-child) {
+    margin-right: 12px;
+}
+
+.itemEventAcceptButton,
+.itemEventRejectButton,
+.itemTitleButton {
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    line-height: 0;
+}
+
+.itemEventAcceptButton {
+    color: #78A55A;
+}
+
+.itemEventRejectButton {
+    color: #FF0000;
+}
+
+.itemTitleIcon,
+.itemEventIcon,
+.itemDateIcon {
+    font-size: 12px;
+}
+
+.itemDateIcon {
+    color: #7D8592;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.itemUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userItemAvatar {
+    margin-right: 15px;
+}
+
+.itemDate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemValueUpdate {
+    border: 3px solid rgba(0, 185, 205, 0.15);
+    border-radius: 50px;
+    width: fit-content;
+    padding: 0 5px;
+}

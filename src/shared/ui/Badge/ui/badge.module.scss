@@ -1,0 +1,103 @@
+@import '../../../../app/assets/styles/colors.scss';
+
+
+
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    // line-height: 1;
+    color: $neutral;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.badgeCalmGreen {
+    color: $white;
+    background-color: $green-calm!important;
+}
+
+.badgeDarkBlue {
+    color: $white;
+    background-color: $stm-blue!important;
+}
+
+.badgeTerra{
+    color: $white;
+    background-color: $terra!important;
+}
+
+.badgePrimary {
+    color: $white;
+    background-color: $primary-01!important;
+}
+
+.badgeLightBlue {
+    color: $white;
+    background-color: $light-blue!important;
+}
+
+.badgeLightPink {
+    color: $white;
+    background-color: $light-pink!important;
+}
+
+.badgeLightBeige {
+    color: $neutral;
+    background-color: $light-beige!important;
+}
+
+.badgeLightGrey {
+    color: $neutral;
+    background-color: $blue-grey!important;
+}
+
+.badgeSuccess {
+    color: $white;
+    background-color: $green-500!important;
+}
+
+.badgeWarning {
+    color: $white;
+    background-color: $brigth-warning!important;
+}
+
+
+.badgeDanger {
+    color: $white;
+    background-color: $red!important;
+}
+
+// 
+.textDark {
+    color: $neutral;
+}
+
+.textLight {
+    color: $white;
+}
+
+// 
+.textWeightNormal {
+    font-weight: 400;
+}
+
+.textWeightLight {
+    font-weight: 200;
+}
+
+// 
+
+.pillBorder {
+    border-radius: 12px;
+}
+
+.circleBorder {
+    border-radius: 50%;
+}
+
+

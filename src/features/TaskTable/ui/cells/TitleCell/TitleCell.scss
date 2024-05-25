@@ -1,0 +1,10 @@
+.TitleCell {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 5px;
+}

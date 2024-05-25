@@ -1,0 +1,148 @@
+.dinamic-metric-title {
+    display: flex;
+    align-items: center;
+}
+
+.dinamic-metric-title__icon {
+    font-size: 16px;
+    line-height: 0;
+    margin-left: 5px;
+    color: #A8A0A0;
+}
+
+.dinamic-metric-refresh {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    color: #A8A0A0;
+    font-weight: 400;
+}
+
+.dinamic-metric-refresh__icon {
+    margin-right: 5px;
+    font-size: 18px;
+    line-height: 0;
+    color: #0BB39C;
+}
+
+.dinamic-metric {
+    display: flex;
+    flex-direction: column;
+    color: #C5C5D3;
+    width: 600px;
+}
+
+.dinamic-metric__slider {
+    position: relative;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.dinamic-metric__button {
+    position: absolute;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+
+    &--left {
+        left: 5px;
+    }
+
+    &--right {
+        right: 5px;
+    }
+
+    &:before {
+        content: none;
+    }
+}
+
+.dinamic-metric__button > span {
+    display: block;
+    color: #C5C5D3;
+}
+
+.dinamic-metric__item {
+    position: relative;
+    display: inline-block;
+    width: 125px;
+}
+
+.dinamic-metric__item > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+
+.dinamic-metric__year {
+    height: 10px;
+    font-size: 9px;
+}
+
+.dinamic-metric__period {
+    height: 35px;
+    align-items: flex-start;
+    line-height: 1.2;
+    border-bottom: 1px solid #C5C5D3;
+    text-transform: capitalize;
+}
+
+.dinamic-metric__stat-fact {
+    height: 35px;
+    align-items: flex-end;
+    color: #000000;
+}
+
+.dinamic-metric__status {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #FF0000;
+
+    &--complated {
+        background-color: #0BB39C;
+    }
+}
+
+.dinamic-metric__directorate {
+    align-self: end;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: max-content max-content;
+    color: rgba(#575353, 0.6);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.dinamic-metric__directorate-item {
+    display: flex;
+    align-items: center;
+
+
+    &--name:before {
+        background-image: url('../../../assets/img/icon-directorate-user.png');
+    }
+
+    &--update:before {
+        background-image: url('../../../assets/img/icon-directorate-clock.png');
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+        margin-right: 10px;
+    }
+}

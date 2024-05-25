@@ -1,0 +1,131 @@
+.taskModal {
+    padding: 42px!important;
+    border-radius: 24px!important;
+    position: relative;
+    box-shadow: 0 6px 58px 0 rgba(121, 145, 173, 0.2)!important;
+}
+
+.taskModalDialog {
+    min-width: 750px!important;
+}
+
+.modalTitle {
+    font-weight: 700;
+    font-size: 28px;
+    color: #0a1629;
+}
+
+.modalDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #000;
+}
+
+.currentValue {
+    font-weight: 600;
+    font-size: 16px;
+    color: #7d8592;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.currentValueContainer {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(115, 179, 255, 0.2);;
+}
+
+.currentValueTitle {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.nameValue {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    // margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footerBtn {
+    height: 48px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
+
+.tabList {
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -25px;
+}
+
+.filterContent {
+    flex-grow: 1;
+}
+
+.tabItem {
+    font-weight: 600;
+    font-size: 16px;
+    color: #7d8592;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 22px;
+    border-right: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #F0F8FF;
+        border-right: 4px solid rgba($color: #3F8CFF, $alpha: 0.5);
+    }
+}
+
+.activeItem {
+    background-color: #F0F8FF;
+    border-right: 4px solid #3F8CFF;
+    color: #0a1629;
+    transition: all 0.3s;
+}
+
+.contentContainer {
+    max-height: 100%;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+
+.contentTitle {
+    font-weight: 600;
+    font-size: 14px;
+    // line-height: 24px; 
+    line-height: 1.71429;
+    color: #000;
+}

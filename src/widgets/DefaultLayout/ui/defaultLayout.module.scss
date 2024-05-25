@@ -1,0 +1,40 @@
+@import '../../../app/assets/styles/colors.scss';
+
+.app {
+    min-height: 100vh!important;
+    background-color: $body;
+    display: grid!important;
+    grid-template-columns: 250px calc(100% - 250px);
+    max-width: 1646px;
+    margin: 0 auto;
+
+}
+
+.test {
+    background-color: white;
+    height: 60px;
+}
+
+.auth {
+    min-height: 100vh!important;
+    background-color: $body;
+}
+
+.pagesContainer {
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-right: 8px;
+    min-height: 94%;
+}
+
+.authContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contentBlock {
+    width: 100%;
+    position: relative;
+}

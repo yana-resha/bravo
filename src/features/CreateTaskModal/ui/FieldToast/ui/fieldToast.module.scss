@@ -1,0 +1,31 @@
+.toast {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 14px !important;
+    font-size: 14px !important;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.toastHeader {
+    align-items: start !important;
+    border: none !important;
+    background-color: inherit !important;
+    color: inherit !important;
+    border-radius: 14px !important;
+}
+
+.primary {
+    color: rgba(63, 140, 255, 1) !important;
+    background-color: rgba(244, 249, 253, 1) !important;
+}
+
+.danger {
+    color: rgba(#ec645f, 1) !important;
+    background-color: rgba(#ffd8d8, 1) !important;
+}
+
+.warning {
+    color: rgba(#f7b15b, 1) !important;
+    background-color: rgba(#ffeeda, 1) !important;
+}

@@ -1,0 +1,125 @@
+.TaskItem__container {
+    background-color: white;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.TaskItem__container_fill {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #f1f1f4;
+   
+}
+
+.TaskItem__row {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 150px 100px 100px 150px 100px 40px 50px 50px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #191632;
+}
+.TaskTable_small .TaskItem__row {
+    grid-template-columns: 1fr 80px 50px 100px 100px 150px 50px;
+}
+
+.TaskItem__cell {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.TaskItem__cell_inColumn {
+    flex-direction: column;
+}
+
+.TaskItem__cell.TaskItem__progress-cell {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.name {
+    text-align: start;
+    cursor: pointer;
+    align-items: center;
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+
+}
+
+.TaskItem__responsibleCell {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.TaskItem__responsible {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 29px;
+    background-color: #edebeb;
+    font-size: 14px;
+}
+
+.TaskItem__responsibleCell_fill .responsible {
+    width: 25px;
+    height: 25px;
+    background-color: #edebeb;
+    font-size: 12px;
+}
+
+.openCheckInBtn {
+    background: #fff;
+    border: 1px solid #8fc8ec;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #908787;
+    transition: all 0.2;
+}
+
+.TaskItem__cellTaskAction {
+    width: 50px;
+}
+
+.TaskItem__cell_openCard {
+    text-align: center;
+}
+
+.counterTaskAttention {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    min-height: 30px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.counterTaskAttention__iresp {
+    border: 1px solid #2C85FE;
+    color: #2C85FE;
+}
+
+.counterTaskAttention__imanage {
+    border: 1px solid #FF0000;
+    color: #FF0000;
+}

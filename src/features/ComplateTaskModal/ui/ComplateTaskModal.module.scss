@@ -1,0 +1,153 @@
+.taskModal {
+    padding: 34px!important;
+    // padding-top: 34px!important;
+    // padding-bottom: 34px!important;
+    // padding-left: 50px!important;
+    // padding-right: 50px!important;
+    border-radius: 24px!important;
+    position: relative;
+    box-shadow: 0 6px 58px 0 rgba(121, 145, 173, 0.2)!important;
+}
+
+.taskModalDialog {
+    min-width: 760px!important;
+}
+
+.modalTitle {
+    font-weight: 700;
+    font-size: 28px;
+    color: #0a1629;
+}
+
+.modalTaskName {
+    position: relative;
+    background-color: #f4f9fd;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    clip-path: padding-box;
+
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        content: '';
+        width: 4px;
+        display: block;
+        background-color: #3f8cff;
+    }
+}
+
+.modalDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #979797;
+    margin-bottom: 15px;
+}
+
+.currentValueContainer {
+    border-bottom: 1px solid #c8c4cc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.currentValueLabel {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.actionTitle {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #7d8592;
+}
+
+.respName {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0a1629;
+    margin-right: 15px;
+} 
+
+.starValue {
+
+    width: fit-content;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    &.successValue {
+        background-color: rgba(144, 193, 113, 1);
+    }
+}
+
+.ratingContainer {
+    margin-bottom: 30px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footerBtn {
+    height: 48px;
+    
+}
+
+.submitBtn {
+    box-shadow: 0 6px 12px 0 rgba(63, 140, 255, 0.26);
+}
+
+.mainText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.modalLoader {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(white, 0.8);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(10, 22, 41, 1);
+    padding: 30px;
+    font-size: 14px;
+    // padding-top: 150px;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    // pointer-events: none;
+}

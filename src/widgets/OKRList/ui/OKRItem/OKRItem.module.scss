@@ -1,0 +1,89 @@
+.itemContainer {
+    background-color: white;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.fillItemContainer {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #f1f1f4;
+   
+}
+
+
+.listRow {
+    display: grid;
+    width: 100%;
+    grid-template-columns: minmax(250px, 25%) minmax(100px,12%) minmax(50px,10%) minmax(50px, 10%) minmax(50px, 10%) minmax(100px, 16%) minmax(100px, 16%) minmax(100px, 16%) 50px;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #191632;
+}
+
+.rowCell {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    text-align: start;
+    cursor: pointer;
+    align-items: center;
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+
+}
+
+.rowResponsible {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsible {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #edebeb;
+    font-size: 16px;
+}
+
+.fillRowResponsible .responsible {
+    width: 25px;
+    height: 25px;
+    background-color: #edebeb;
+    font-size: 12px;
+}
+
+.openCheckInBtn {
+    background: #fff;
+    border: 1px solid #8fc8ec;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #908787;
+    transition: all 0.2;
+}
+
+.cellTaskAction {
+    width: 50px;
+}

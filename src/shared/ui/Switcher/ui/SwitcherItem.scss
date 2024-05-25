@@ -1,0 +1,23 @@
+.switcherItem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 12px;   
+    border: 1px solid #B4B4B9;
+    border-radius: 14px;
+    color: #000; 
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.switcherItem_active,
+.switcherItem:hover {
+    border: 1px solid #3F8CFF;
+    color: #3F8CFF;
+}
+
+.switcherItem__icon {
+    display: inline;
+    line-height: 1;
+}

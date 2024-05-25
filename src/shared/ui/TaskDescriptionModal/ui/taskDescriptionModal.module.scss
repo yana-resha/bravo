@@ -1,0 +1,46 @@
+@import '@/app/assets/styles/colors.scss';
+
+.background {
+    z-index: 1055!important;
+}
+
+.modalDialog {
+    min-width: 50%;
+    max-width: fit-content;
+    min-height: 50%;
+}
+
+.modalContent {
+    min-height: 70%;
+    border-radius: 24px;
+}
+
+// .item {
+//     color: $white;
+//     font-size: 26px;
+//     font-weight: 500;
+//     padding-top: 17px;
+//     padding-bottom: 17px;
+//     padding-left: 25px;
+//     padding-right: 25px;
+//     border-radius: 100px;
+// }
+
+// .darkGreen {
+//     background-color: #026B6A;
+// }
+
+// .breeze {
+//     background-color: rgba(62, 218, 216, 1);
+// }
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+// .gridRow {
+//     display: grid;
+//     grid-template-columns: 40% 58%;
+//     justify-content: space-between;
+// }

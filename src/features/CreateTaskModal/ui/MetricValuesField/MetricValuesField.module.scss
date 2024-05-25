@@ -1,0 +1,70 @@
+.label {
+    color: rgba(125, 133, 146, 1);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 7px!important;
+    line-height: 24px;
+}
+
+.labelLight {
+    font-weight: 300;
+}
+
+.labelStar {
+    color: #F00;
+}
+
+.lastRow {
+    display: grid;
+    grid-template-columns: 29% 29% 29% 10%;
+    justify-content: space-between;
+}
+
+.customLabel {
+    color: rgba(10, 22, 41, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.inputIcon {
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    line-height: 50px!important;
+    right: 10px;
+    top: 0;
+    color: #878a99;
+}
+
+.addPeriodBtn {
+    color: rgba(63, 140, 255, 1)!important;
+}
+
+.modalInput {
+    font-size: 14px!important;
+    height: 47px;
+}
+
+.modalInput.invalid,
+.textarea.invalid {
+    border-color: #F00!important;
+}
+
+
+.modalInput::placeholder {
+    font-size: 14px!important;
+    color: rgba(125, 133, 146, 1)!important;
+}
+
+.pickerDropdown {
+    z-index: 1055!important;
+}
+
+.closeBtn {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+
+}

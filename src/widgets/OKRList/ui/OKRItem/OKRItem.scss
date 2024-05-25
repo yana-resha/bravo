@@ -1,0 +1,18 @@
+.counterTaskAttention {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2C85FE;
+    color: #2C85FE;
+    width: 30px;
+    height: 30px;
+} 
+.counterTaskAttention_important {
+    border-color: #FF0101;
+    color: #FF0101;
+}

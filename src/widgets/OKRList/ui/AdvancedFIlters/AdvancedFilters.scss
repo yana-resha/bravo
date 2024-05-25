@@ -1,0 +1,50 @@
+.advancedFilters {
+    display: flex;
+    align-items: flex-start;
+}
+
+.advancedFilterItem {
+    margin-right: 30px;
+}
+
+.advancedFilterItem:last-child {
+    margin-right: 0;
+}
+.advancedFilterItem_employeer {
+    width: 220px;
+}
+
+
+.responsibleSearch .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+    width: 100% !important;
+}
+
+.responsibleSearch .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+
+
+.responsibleSearch {
+    position: sticky!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent!important;
+}
+
+.responsibleSearch .css-1ua80n0-MuiInputBase-input-MuiOutlinedInput-input {
+    padding-left: 10px;
+}
+
+.myPopover .MuiPopover-paper{
+    min-width: 150px;
+    max-height: 300px;
+    padding-top: 5px;
+}
+
+.myPopover.responsiblePopover .MuiPopover-paper{
+    min-width: 300px;
+}

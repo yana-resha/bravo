@@ -1,0 +1,82 @@
+.targetModal .TextField-InputContainer_view_default {
+    border-radius: 14px!important;
+    border: 1px solid #dee2e6;
+    color: #212529;
+    font-size: 14px;
+}
+
+.targetModal .TextField-InputContainer_view_default:hover,
+.targetModal .TextField-InputContainer_view_default:active {
+    border: 1px solid #dee2e6;
+}
+
+.targetModal .TextField-Input {
+    font-size: 14px!important;
+    color: #212529!important;
+}
+
+.targetModal .Select-Placeholder,
+.targetModal .TextField-Input::placeholder {
+    color: rgba(125, 133, 146, 1)!important;
+    font-size: 14px!important;
+}
+
+.selectDropdown.canary--SelectDropdown {
+    z-index: 1151!important;
+    border-radius: 14px;
+    font-size: 14px!important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.selectDropdown .canary--SelectDropdown-ScrollContainer {
+    position: relative;
+}
+
+.selectDropdown.load .canary--SelectDropdown-ScrollContainer {
+    position: relative;
+}
+
+.selectDropdown.load::after {
+    position: absolute;
+    content: "Данные загружаются...";
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: white, $alpha: 0.7);
+    top: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // z-index: 1;
+}
+
+.selectDropdown .canary--SelectDropdown-ScrollContainer {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.selectDropdown .ListItemGrid {
+    font-size: 14px;
+    color:#212529,
+}
+
+.targetModal .Select-SelectContainer_view_default .Select-Control,
+.targetModal .TextField-InputContainer_view_default
+ {
+    border-radius: 14px!important;
+    border: 1px solid #dee2e6;
+    color: #212529;
+    font-size: 14px;
+}
+
+
+.targetModal .Select.Select_view_default.invalid .Select-Control,
+.targetModal .TextField-InputContainer_view_default.invalid {
+    border-color:  #F00!important;
+}

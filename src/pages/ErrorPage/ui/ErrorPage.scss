@@ -1,0 +1,38 @@
+.error-page {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 59px);
+    
+}
+
+.error-page__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.error-page__info {
+    width: 545px;
+}
+
+.error_page__title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.error_page__description {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 55%);
+    margin-bottom: 50px;
+}
+
+.error-page__image {
+    border-radius: 30px;
+}

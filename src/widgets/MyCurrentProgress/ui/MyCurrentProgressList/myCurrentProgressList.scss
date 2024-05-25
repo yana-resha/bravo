@@ -1,0 +1,8 @@
+.slick-arrow {
+    transition: opacity 0.15s ease-in-out;
+
+    &.slick-disabled {
+        opacity: 0;
+        cursor: auto;
+    }
+}

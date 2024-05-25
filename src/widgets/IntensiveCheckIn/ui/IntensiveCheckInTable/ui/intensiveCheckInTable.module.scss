@@ -1,0 +1,46 @@
+.weekHeaderCell {
+    padding-bottom: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 12px;
+    color: #7D8593;
+    font-size: 13px;
+    background-color: #F4F9FD;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 7px;
+    min-width: 28px;
+}
+
+.value {
+    width: 22px;
+    height: 15px;
+    background-color: rgba(166, 168, 170, 0.20);
+    border-radius: 7px;
+}
+
+.value.fill {
+    background-color: #9747FF;
+}
+
+.value.outline {
+    border: 2px solid #9747FF;
+}
+
+.employeeRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6EBF5;;
+}
+
+.fioText {
+    color: #242E39;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+}

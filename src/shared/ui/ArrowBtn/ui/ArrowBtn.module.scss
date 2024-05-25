@@ -1,0 +1,18 @@
+.arrowIconBlock {
+    cursor: pointer!important;
+
+    svg {
+        fill: #3C88EE!important;
+    }
+}
+
+.arrowIconBlock:not(.transformIcon) span svg{
+    transform: rotate(0deg)!important;
+    transition: all 0.2s ease-in-out!important;
+}
+
+
+.arrowIconBlock.transformIcon span svg{
+    transform: rotate(-180deg)!important;
+    transition: all 0.2s ease-in-out!important;
+}

@@ -1,0 +1,60 @@
+.item {
+    border-radius: 13px;
+    border: 1.063px solid #DFDBD8;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+}
+
+.visiblePart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.taskType {
+    color: #A6A8AA;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.titleRow {
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: bottom;
+}
+
+.emogiList {
+    span:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.progressContainer {
+    margin-left: 10%;
+    width: 250px;
+}
+
+.responsibleName {
+    color: rgba(29, 29, 29, 1);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.21px;
+}
+
+.actionBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}

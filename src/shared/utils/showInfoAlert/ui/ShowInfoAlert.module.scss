@@ -1,0 +1,27 @@
+@import '../../../../app/assets/styles/colors.scss';
+
+.confirmBtn{
+    background-color: $primary-01!important;
+    color: white!important;
+}
+
+.hiddenButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(#000000, 0.15);
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: rgba(#ffffff, 0.8);
+    margin-right: 8px;
+
+    &:hover,
+    &:active {
+        background-color: rgba(#000000, 0.20);
+        color: rgba(#ffffff, 1);
+    }
+}

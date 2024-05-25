@@ -1,0 +1,79 @@
+.item {
+    display: grid;
+    grid-template-columns: 70% 4px calc(30% - 4px);
+    min-height: 40px;
+}
+
+.border {
+    width: 100%;
+    background-color: #9747FF;
+    height: 100%;
+}
+
+.metrikaRow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.monthProgress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleProgress {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+
+    &.dangerCircle {
+        background-color: #BB271A;
+    }
+
+    &.warningCircle {
+        background-color: #EBC351;
+    }
+
+    &.successCircle {
+        background-color: #78A55A;
+    }
+}
+
+.progressPoint {
+    color: #8A9BAD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.393px; 
+}
+
+.periodProgress {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.progressbarText {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.okrRow {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 45% 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starValue {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 700;
+}

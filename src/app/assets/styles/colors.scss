@@ -1,0 +1,58 @@
+$grey-100: rgba(241, 241, 244, 1);
+$grey-300: rgba(168, 168, 189, 1);
+$grey-500: rgba(105, 105, 105, 1);
+$grey-600: rgba(88, 88, 116, 1);
+
+
+$light: rgba(244, 249, 253, 1);
+
+$dark-grey: rgba(174, 174, 174, 1);
+
+
+$neutral: rgba(26, 29, 31, 1);
+
+$green-500: rgba(66, 189, 83, 1);
+$green-calm: rgba(144, 193, 113, 1);
+
+$blue-grey: rgba(233, 236, 242, 1);
+
+$light-beige: rgba(238, 230, 226, 1);
+
+$light-pink: rgba(228, 181, 195, 1);
+$bright-pink: rgba(255, 42, 68, 1);
+
+
+$stm-blue: rgba(55, 84, 219, 1);
+$primary-500: rgba(0, 106, 255, 1);
+$primary-01: rgba(42, 133, 255, 1);
+$primary-0: rgba(229, 240, 255, 1);
+
+$brigth-warning: rgba(255, 177, 0, 1);
+
+
+$light-blue: rgba(128, 184, 240, 1);
+$soft-blue: rgba(229, 240, 255, 1);
+
+$body: rgba(245, 245, 245, 1);
+
+
+$red: rgba(255, 11, 11, 1);
+$black: rgba(0, 0, 0, 1);
+$white: rgba(255, 255, 255, 1);
+
+$purple: rgba(93, 45, 255, 1);
+
+
+$terra: rgba(214, 91, 1, 1);
+
+.color-success {
+    color: $green-500;
+}
+
+.color-danger {
+    color: $red;
+}
+
+.color-primary {
+    color: $primary-500;
+}

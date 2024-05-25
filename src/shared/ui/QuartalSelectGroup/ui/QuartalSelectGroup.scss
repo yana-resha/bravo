@@ -1,0 +1,35 @@
+.quartalSelectGroup .Select-SelectContainer_view_default .Select-Control {
+    background-color: transparent!important;
+    border: none!important;
+    border-right: 1px solid #dee2e6!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+
+.quartalSelectGroup .Select:last-child .Select-SelectContainer_view_default .Select-Control {
+    border-right: 1px solid transparent!important;
+}
+
+
+.Select-SelectContainer_view_default.Select-SelectContainer_form_brickClear.Select-SelectContainer_focused .Select-Control, .Select-SelectContainer_view_default.Select-SelectContainer_form_defaultClear.Select-SelectContainer_focused .Select-Control, .Select-SelectContainer_view_default.Select-SelectContainer_form_roundClear.Select-SelectContainer_focused .Select-Control {
+    box-shadow: none!important;
+}
+
+
+.quartalSelectGroup {
+    border: 1px solid #dee2e6;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.quartalSelectGroup.disabled {
+    pointer-events: none;
+    background-color: #e9ecef!important;
+}
+
+
+.quartalSelectGroupDropdown .ListItem{
+    font-size: 14px!important;
+}
+
+

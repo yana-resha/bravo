@@ -1,0 +1,26 @@
+.label {
+    color: rgb(125, 133, 146);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 7px!important;
+    line-height: 24px;
+}
+
+.errorBlock {
+    font-size: 11px;
+    color: #F00;
+    position: absolute;
+    top: 100%;
+    padding: 5px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+
+    &:empty {
+        display: none;
+    }
+}
+
+.field {
+    padding-top: 5px;
+}

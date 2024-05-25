@@ -1,0 +1,39 @@
+.statusIcon {
+    position: absolute;
+    top: 0%;
+    left: 10px;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.label {
+    white-space: nowrap;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.passingScore {
+    position: absolute;
+    top: -7px; 
+    height: calc(100% + 14px + 14px);
+    font-size: 12px;
+    color: rgba(0, 132, 255, 1);
+    
+}
+
+.passingScoreBorder {
+    width: 3px;
+    border-radius: 2px;
+    height: calc(100% - 11px);
+    background-color: rgba(0, 133, 255, 1);
+}
+
+.passingScoreText {
+    position: relative;
+    left: -45%;
+}

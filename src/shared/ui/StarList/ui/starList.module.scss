@@ -1,0 +1,7 @@
+.starList {
+    line-height: 1;
+    
+    span:not(:last-child) {
+        margin-right: -5px;
+    }
+}

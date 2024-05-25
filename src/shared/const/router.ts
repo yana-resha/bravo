@@ -1,0 +1,15 @@
+export const getPathMain = () => `/`;
+export const getPathAbout = () => `/about`;
+export const getPathOKR = () => `/okr`;
+export const getPathBacklog = () => `/backlog`;
+export const getPathLoginPage = () => '/login';
+export const getPathProjects = () => `/projects`;
+export const getPathSummarizing = () => `/summarizing`;
+export const getPathDirectReports = () => `/direct-reports`;
+export const getPathKanbanBoard = () => `/kanban-board`;
+export const getPathPersonnelCommittee = () => `/personnel-committee`;
+export const getPathGradeSubcontractors = () => `/grade-subcontractors`;
+export const getPathTKBStar = () => `/tkb-star`;
+export const getPathTargetsGroup = () => `/targets-group`;
+export const getPathNotFoundPage = () => `/not-found`;
+export const getPathDefault = () => `*`;

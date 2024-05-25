@@ -1,0 +1,106 @@
+.filterBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.dropdownList {
+    top: 120%;
+    background-color: white;
+    
+    padding-bottom: 0px;
+    min-width: 100%;
+    // width: fit-content;
+}
+
+.dropDownScrollBlock {
+    max-height: 300px;
+    min-height: 200px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.label {
+    white-space: nowrap;
+}
+
+.statusBg {
+    width: 7px;
+    height: 7px;
+    padding: 0!important;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.btnFilterBg {
+    width: 10px;
+    height: 10px;
+    padding: 0!important;
+    position: absolute;
+    top: 0;
+    right: -2px;
+}
+
+.dropItem {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 7px;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: #f8f9fa;
+    }
+}
+
+.checkbox:checked {
+    background-color: rgb(168, 168, 189) !important;
+    border-color: rgb(168, 168, 189) !important;
+}
+
+.clearFilterBtn {
+    width: 100%;
+    border-radius: 0%;
+    transform: none!important;
+}
+
+.statusCheckinBg {
+    padding: 0!important;
+    width: 8px;
+    height: 8px;
+    vertical-align: middle!important;
+    margin-left: 4px;
+}
+
+.respErrorBlock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.respLoadingBlock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 500;
+    
+}

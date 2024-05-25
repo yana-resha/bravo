@@ -1,0 +1,28 @@
+.GuidingPurposeItem {
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    border: 1px solid rgba(0,65,102,.1);
+    padding: 50px 20px;
+    border-radius: 15px;
+    min-width: 600px;
+}
+
+.GuidingPurposeItem__data {
+    flex-grow: 1;
+}
+.GuidingPurposeItem__control {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.GuidingPurposeItem__label {
+    color: #A6A8AA;
+    font-size: 16px;
+}
+
+.GuidingPurposeItem__title {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}

@@ -1,0 +1,272 @@
+@import '@/app/assets/styles/colors.scss';
+
+.contentModal {
+    padding: 0px;
+    border-radius: 24px !important;
+}
+
+.modalDialog {
+    min-width: 60% !important;
+    max-width: fit-content !important;
+}
+
+.header {
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+
+    & > *:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.titleStars {
+    margin-top: -20px;
+}
+
+.contentContainer {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: space-between;
+
+    & > *:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+.leftContainer {
+    width: 600px;
+}
+
+.rightContainer {
+    width: 600px;
+}
+
+.editor {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    overflow-wrap: anywhere;
+}
+
+.modalFooter {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f9fafb;
+}
+
+.footerBtn {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05) !important;
+    border: 1px solid #ededed !important;
+    border-radius: 8px !important;
+    padding: 10px 28px !important;
+    font-weight: 500;
+}
+
+.check:checked {
+    background-color: #3f8cff !important;
+    border-color: #3f8cff !important;
+}
+
+.checkLabel {
+    color: #1a1d1f;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.label {
+    margin-bottom: 20px !important;
+}
+
+.planValueLabel {
+    display: flex;
+    font-weight: 400 !important;
+    color: #7d8592 !important;
+}
+
+.statusValuesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+}
+
+.progressInputs {
+    display: flex;
+    margin-bottom: 15px;
+    
+    & > *:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.progressInput {
+    max-width: 96px;
+}
+
+.progressInputContainer {
+    position: relative;
+}
+
+.labelInfo {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+.historyTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: #1a1d1f;
+    margin-bottom: 5px;
+}
+
+.historyList {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.historyItem {
+    border-bottom: 1px solid #e4e6e8;
+    padding: 10px 0;
+}
+
+.historyItemHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.historyItemTitle {
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.historyItemTitleStartEnd {
+    font-weight: 400;
+}
+
+.historyItemIsSeen {
+    display: block;
+    width: 10px;
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+    background-color: #2a85ff;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: -15px;
+}
+
+.historyItemStats {
+    display: flex;
+    flex-shrink: 0;
+    font-size: 12px;
+
+    & > *:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.historyItemStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: 26px;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.historyItemProgress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 150px;
+    min-height: 26px;
+    border: 2px solid rgba(0, 185, 205, 0.15);
+    border-radius: 10px;
+    padding: 0 7px;
+    color: #7e94b4;
+    font-size: 12px;
+}
+
+.historyItemBody {
+    display: flex;
+
+    & > *:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.historyItemComment {
+    flex-grow: 1;
+    align-self: center;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+    color: #33383f;
+
+    &NoComment {
+        color: #bab0b0;
+    }
+
+    &NoCheckin {
+        color: #e78175;
+    }
+}
+
+.historyItemUserInfo {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    flex-shrink: 0;
+
+    & > *:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.historyItemDateComment {
+    font-size: 14px;
+    color: #91929e;
+}
+
+.historyItemUserAvatar {
+    width: 24px;
+    height: 25px;
+}
+
+.modalLoader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($white, 0.8);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(10, 22, 41, 1);
+    padding: 30px;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+}

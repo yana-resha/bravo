@@ -1,0 +1,45 @@
+
+@import '../../../../app/assets/styles/colors.scss';
+
+.mainCard {
+    border-radius: 13px;
+    border: 1.063px solid #DFDBD8;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+
+.mainVisibleBlock {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-bottom: none!important;
+    background-color: transparent!important;
+    padding: 0!important;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: $dark-grey;
+}
+
+.statsResponsible {
+    display: flex;
+    align-items: center;
+
+    & > *:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.infoList {
+    border-top: 1px solid #DFDBD8;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70px;
+    row-gap: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,138 @@
+@import './avatar.scss';
+@import './icons.scss';
+@import './colors.scss';
+@import './customScroll.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear-hr {
+    border: 0;
+    height: 1px;
+}
+// 
+.link-style {
+   text-decoration: none;
+}
+
+.pointer {
+    cursor: pointer!important;
+    
+}
+
+// стили для тегов стилизованного написания, добавляю потому что конста свои стили хочет применить
+
+em {
+    font-style: italic!important;
+    font-weight: inherit!important;
+}
+
+strong {
+    font-weight: bolder!important;
+}
+
+
+// font-size
+
+.fs-24 {
+    font-size: 24px!important;
+}
+
+.fs-23 {
+    font-size: 23px!important;
+}
+
+.fs-22 {
+    font-size: 22px!important;
+}
+
+.fs-21 {
+    font-size: 21px!important;
+}
+
+.fs-20 {
+    font-size: 20px!important;
+}
+
+.fs-19 {
+    font-size: 19px!important;
+}
+
+.fs-18 {
+    font-size: 18px!important;
+}
+
+.fs-17 {
+    font-size: 17px!important;
+}
+
+.fs-16 {
+    font-size: 16px!important;
+}
+
+.fs-15 {
+    font-size: 15px!important;
+}
+
+.fs-14 {
+    font-size: 14px!important;
+}
+
+.fs-13 {
+    font-size: 13px!important;
+}
+
+.fs-12 {
+    font-size: 12px!important;
+}
+
+.fs-11 {
+    font-size: 11px!important;
+}
+
+
+.fs-10 {
+    font-size: 10px!important;
+}
+
+
+// border-radius
+
+.br-12 {
+    border-radius: 12px!important;
+}
+
+.br-13 {
+    border-radius: 13px!important;
+}
+
+.br-14 {
+    border-radius: 14px!important;
+}
+
+.br-15 {
+    border-radius: 15px!important;
+}
+
+
+// border-colors
+
+.border-default {
+    border-color: var(--color-control-bg-border-default);
+}
+
+// 
+
+img {
+    object-fit: cover;
+}
+
+// инпут от бутстрапа
+input.form-control,
+textarea.form-control {
+    border-radius: 14px;
+}

@@ -1,0 +1,17 @@
+.list {
+    width: 100%; 
+    padding-left: 20px;
+}
+
+.headerRow {
+    display: grid;
+    grid-template-columns: 70% calc(30% - 24px);
+    justify-content: space-between;
+}
+
+.title {
+    color: rgba(29, 29, 29, 1);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}

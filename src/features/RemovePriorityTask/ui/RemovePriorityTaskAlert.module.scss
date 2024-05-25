@@ -1,0 +1,38 @@
+.confirmDeleteButton {
+    background-color: red!important;
+    color: white!important;
+}
+
+.dialogText {
+    padding-top: 20px;
+}
+
+.confirmButton {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 17px;
+
+    &:hover {
+        background-color: #e40202;
+    }
+
+    &:active {
+        background-color: #c20000;
+    }
+}
+
+.closeButton {
+    padding: 10px 17px;
+    border: none;
+    color: #2196f3;
+    background-color: transparent;
+
+    &:hover {
+        background-color: #dff1ff;
+    }
+
+    &:active {
+        background-color: #c4e4ff;
+    }
+}

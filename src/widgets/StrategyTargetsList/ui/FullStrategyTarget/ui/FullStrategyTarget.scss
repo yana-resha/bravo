@@ -1,0 +1,47 @@
+@import '../../../../../app/assets/styles/colors.scss';
+
+.FullStrategyTarget {
+    margin-bottom: 20px;
+}
+
+.FullStrategyTarget__top {
+    display: flex;
+}
+
+.FullStrategyTarget__collapse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    background: #FFF;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.FullStrategyTarget__collapseContainer {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 65% 34%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.FullStrategyTarget__listContainer {
+    background-color: $white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    padding: 15px;
+}
+
+.FullStrategyTarget__metricItem:not(:last-child) {
+    margin-bottom: 10px;
+}

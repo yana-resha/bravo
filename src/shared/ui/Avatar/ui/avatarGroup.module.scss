@@ -1,0 +1,14 @@
+@import '../../../../app/assets/styles/colors.scss';
+
+
+
+.hiddenAvatars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #413E54;
+}

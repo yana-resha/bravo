@@ -1,0 +1,64 @@
+.tableSearchInput .TextField-InputContainer_form_round{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tableSearchInput input {
+    color: #979797;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.tableSearchInput input::placeholder {
+    color: #979797;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.intensive-checkin-wrapper {
+    position: relative;
+    height: 480px;
+    overflow-y: auto;
+}
+
+.intensive-checkin__head {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.intensive-checkin__cell {
+    min-width: 35px;
+
+    &--search {
+        width: 340px;
+        vertical-align: bottom;
+        padding-bottom: 16px;
+    }
+
+    &--week {
+        padding-bottom: 10px;
+    }
+
+    &--user {
+        width: 340px;
+    }
+
+    &--extreme:not(:last-child) {
+        border-right: 1px solid #9747FF;
+    }
+}
+
+.intensive-checkin__month { 
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+
+    &--short {
+        font-size: 0;
+        line-height: 0;
+    }
+}

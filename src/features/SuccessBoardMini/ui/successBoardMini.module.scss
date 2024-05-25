@@ -1,0 +1,80 @@
+.title {
+    color: rgba(29, 29, 29, 0.70)!important;
+    text-decoration: none!important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.boardList {
+    display: flex;
+    flex-direction: column;
+}
+
+.boardItem {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemTitle {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.itemAvatar {
+    width: 56px;
+    height: 69px;
+    border-radius: 16px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+.itemDescription {
+    color: rgba(65, 62, 84, 1);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.itemBorder {
+    width: 100%;
+    border-radius: 20px;
+    background: #8B2CF5;
+    height: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+.actionRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.likeBtn {
+    i {
+        font-size: 35px;
+        color: #8B2CF5;
+    }
+}
+
+.hiddenAvatars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #413E54;
+}

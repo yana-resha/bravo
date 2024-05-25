@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+.clickBtn {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

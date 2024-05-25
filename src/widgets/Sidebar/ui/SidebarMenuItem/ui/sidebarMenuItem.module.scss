@@ -1,0 +1,65 @@
+@import '../../../../../app/assets/styles/colors.scss';
+
+.itemTitle {
+    font-size: 12px;
+    color: $grey-600;
+    line-height: 140%;
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover .itemTitle {
+    font-weight: 500;
+    // transition: all 0.2s ease-in-out;
+}
+
+.activeTitle {
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    color: $primary-500;
+}
+
+
+.item {
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    cursor: pointer;  
+    border-radius: 4px; 
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.activeItem {
+    background-color: rgba($color: $primary-0, $alpha: 1);
+    transition: all 0.2s ease-in-out;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.item:hover {
+    // transform: scale(1.01);
+    background-color: rgba($color: $primary-0, $alpha: 0.7);
+}
+
+
+
+
+.leftIcon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.sublimeText {
+    font-size: 10px;
+    vertical-align: super;
+    padding-left: 2px;
+}

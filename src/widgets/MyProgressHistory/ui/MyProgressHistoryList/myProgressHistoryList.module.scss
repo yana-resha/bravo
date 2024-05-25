@@ -1,0 +1,65 @@
+.list {
+    display: grid;
+    grid-template-columns: fit-content(49%) 4px fit-content(49%);
+   
+    justify-content: flex-start;
+}
+
+.border {
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #9747FF;
+}
+
+.progressContainer {
+    width: 55px;
+    height: 55px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: fit-content(100px) fit-content(100px);
+    grid-column-gap: 30px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.commonStatus {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.rowTitle {
+    color: rgba(29, 29, 29, 1);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.progressValue {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.valueText {
+    margin-left: 5px;
+    color: rgba(36, 46, 57, 1);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.averageProgress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

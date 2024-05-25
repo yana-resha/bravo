@@ -1,0 +1,87 @@
+.ChildTaskItem {
+
+}
+
+.ChildTaskItem__row {
+    display: grid;
+    width: 100%;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 150px 100px 100px 150px 100px 40px 50px 50px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    color: #191632;
+    margin-bottom: 3px;
+}
+.TaskTable_small .ChildTaskItem__row {
+    grid-template-columns: 1fr 80px 50px 100px 100px 150px 50px;
+}
+
+.ChildTaskItem__cell {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.ChildTaskItem__cell_inColumn {
+    flex-direction: column;
+}
+
+.ChildTaskItem__cell.ChildTaskItem__progress-cell {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ChildTaskItem__titleCell {
+    padding-left: 35px;
+}
+
+.ChildTaskItem__name {
+    text-align: start;
+    cursor: pointer;
+    align-items: center;
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+}
+
+.ChildTaskItem__cell_openCard {
+    text-align: center;
+}
+
+
+
+.ChildTaskItem__responsibeCell {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChildTaskItem__responsibeCell_fill {
+    // width: 25px;widthwidthwidthwidthwidth
+    // height: 25px;heightheightheightheightheight
+    // background-color: #edebeb;background-colorbackground-colorbackground-colorbackground-colorbackground-color
+    // font-size: 12px;font-sizefont-sizefont-sizefont-sizefont-size
+}
+
+.ChildTaskItem__responsibe {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 29px;
+    background-color: #edebeb;
+    font-size: 14px;
+}
+
+
+
+.ChildTaskItem__actions {
+    width: 50px;
+}

@@ -1,0 +1,45 @@
+.stats-responsible {
+    display: flex;
+    align-items: center;
+}
+
+.stats-responsible > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.stats-responsible__avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.stats-responsible__status {
+    font-size: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF0000;
+
+    &--done {
+        background-color: #0BB39C;
+    }
+}
+
+.stats-responsible__item {
+    color: #C5C5D3;
+    font-size: 20px;
+    line-height: 1.2;
+    justify-content: space-between;
+    display: flex;
+}
+
+.stats-responsible__item > *:not(:last-child) {
+    margin-right: 8px;
+}
+
+.stats-responsible__percentage {
+    color: rgba(#080808, 0.5);
+    font-size: 22px;
+    font-weight: 700;
+}

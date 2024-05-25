@@ -1,0 +1,16 @@
+.btnSpinner {
+    margin-left: 10px;
+    --bs-spinner-border-width: 0.12em!important;
+    --bs-spinner-width: 1.2rem!important;
+    --bs-spinner-height: 1.2rem!important;
+}
+
+.btnSpinner.sm {
+    --bs-spinner-width: 1rem!important;
+    --bs-spinner-height: 1rem!important;
+}
+
+.btnSpinner.lg {
+    --bs-spinner-width: 1.5rem!important;
+    --bs-spinner-height: 1.5rem!important;
+}

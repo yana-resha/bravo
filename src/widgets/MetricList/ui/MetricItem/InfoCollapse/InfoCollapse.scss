@@ -1,0 +1,32 @@
+.info-collapse__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: #797979;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.info-collapse__title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info-collapse__title-arrow {
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.info-collapse--opened .info-collapse__title-arrow {
+    transform: rotate(-180deg);
+}
+
+.info-collapse__title-arrow svg {
+    fill: #797979 !important;
+}
+
+.info-collapse__info {
+    margin-top: 20px;
+}

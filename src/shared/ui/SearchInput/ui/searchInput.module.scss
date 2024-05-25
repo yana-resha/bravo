@@ -1,0 +1,24 @@
+
+
+.searchInput {
+    padding-left: 40px!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color-bg-secondary);
+    font-size: 14px!important;
+    color: var(--bs-secondary-color);
+    border-radius: 15px;
+    border: none;
+}
+
+.searchWidgetIcon {
+    position: absolute;
+    z-index: 10;
+    font-size: 26px;
+    line-height: 38px;
+    left: 10px;
+    top: 0;
+    color: #878a99;
+    height: 100%;
+    vertical-align: middle;
+}
